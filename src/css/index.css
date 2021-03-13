@@ -1,0 +1,55 @@
+* {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.2rem;
+}
+
+body {
+  padding: 60px;
+}
+
+h2 {
+  color: #3b3a3a;
+}
+
+input[type='text'] {
+  width: 100%;
+  font-family: 'Courier, monospace';
+  height: 30px;
+  border-radius: 3%;
+  border: 1px solid #4b4949;
+  text-indent: 25px;
+  color: #3b3a3a;
+}
+
+.categories--center {
+  text-align: center;
+  }
+  .categories--capitalize {
+    text-transform: capitalize;
+    font-size: 1.5rem;
+  }
+
+.card-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+    width: 400px;
+    align-content: center;
+    border: 1px solid grey;
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 15px auto;
+    cursor: pointer;
+  }
+  .card img {
+    max-height: 200px;
+    width: 100%;
+  
+  }
+  .card p {
+    padding: 5px;
+    text-align: center;
+  }
